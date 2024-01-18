@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Day0100 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan angka pertama: ");
+        double angka1 = scanner.nextDouble();
+
+        System.out.print("Masukkan angka kedua: ");
+        double angka2 = scanner.nextDouble();
+
+        double hasilTambah = angka1 + angka2;
+        double hasilKurang = angka1 - angka2;
+        double hasilKali = angka1 * angka2;
+        double hasilBagi = angka1 / angka2;
+
+        System.out.println("\nHasil Penjumlahan: " + hasilTambah);
+        System.out.println("Hasil Pengurangan: " + hasilKurang);
+        System.out.println("Hasil Perkalian: " + hasilKali);
+        System.out.println("Hasil Pembagian: " + hasilBagi);
+
+        scanner.close();
+    }
+}
